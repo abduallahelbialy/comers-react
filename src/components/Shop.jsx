@@ -16,114 +16,116 @@ import newprfife from "../img/products/n5.jpg";
 import newprsix from "../img/products/n6.jpg";
 import newprssiven from "../img/products/n7.jpg";
 import newpreat from "../img/products/n8.jpg";
+import { Link } from "react-router-dom";
 
 
 const Shop = () => {
   return (
     <React.Fragment>
-      <section id="products1" className="section-p1">
-        <h2>featured products</h2>
-        <p>summer collection new morden design</p>
-        <div className="container">
-          <div className="pro"  >
-            <img src={proone} alt="" />
-            <div className="des">
-              <span> adidas</span>
-              <h4>cartoon astronaut t-shirts</h4>
-              <div className="rateYo"></div>
-              <h5>$78</h5>
+      <Link to="product-detlis/">
+        <section id="products1" className="section-p1">
+          <h2>featured products</h2>
+          <p>summer collection new morden design</p>
+          <div className="container">
+            <div className="pro">
+              <img src={proone} alt="" />
+              <div className="des">
+                <span> adidas</span>
+                <h4>cartoon astronaut t-shirts</h4>
+                <div className="rateYo"></div>
+                <h5>$78</h5>
+              </div>
+              <a href="/#" className="ico">
+                <i className="fa-solid fa-cart-shopping "></i>
+              </a>
             </div>
-            <a href="/#" className="ico">
-              <i className="fa-solid fa-cart-shopping "></i>
-            </a>
-          </div>
-          <div className="pro" onclick="window.location.href='sproduct.html'">
-            <img src={protwo} alt="" />
-            <div className="des">
-              <span> adidas</span>
-              <h4>cartoon astronaut t-shirts</h4>
-              <div className="rateYo"></div>
-              <h5>$78</h5>
+            <div className="pro" onclick="window.location.href='sproduct.html'">
+              <img src={protwo} alt="" />
+              <div className="des">
+                <span> adidas</span>
+                <h4>cartoon astronaut t-shirts</h4>
+                <div className="rateYo"></div>
+                <h5>$78</h5>
+              </div>
+              <a href="/#" className="ico">
+                <i className="fa-solid fa-cart-shopping "></i>
+              </a>
             </div>
-            <a href="/#" className="ico">
-              <i className="fa-solid fa-cart-shopping "></i>
-            </a>
-          </div>
-          <div className="pro" onclick="window.location.href='sproduct.html'">
-            <img src={prothre} alt="" />
-            <div className="des">
-              <span> adidas</span>
-              <h4>cartoon astronaut t-shirts</h4>
-              <div className="rateYo"></div>
-              <h5>$78</h5>
+            <div className="pro" onclick="window.location.href='sproduct.html'">
+              <img src={prothre} alt="" />
+              <div className="des">
+                <span> adidas</span>
+                <h4>cartoon astronaut t-shirts</h4>
+                <div className="rateYo"></div>
+                <h5>$78</h5>
+              </div>
+              <a href="/#" className="ico">
+                <i className="fa-solid fa-cart-shopping "></i>
+              </a>
             </div>
-            <a href="/#" className="ico">
-              <i className="fa-solid fa-cart-shopping "></i>
-            </a>
-          </div>
-
-          <div className="pro">
-            <img src={profor} alt="" />
-            <div className="des">
-              <span> adidas</span>
-              <h4>cartoon astronaut t-shirts</h4>
-              <div className="rateYo"></div>
-              <h5>$78</h5>
+            <div className="pro">
+              <img src={profor} alt="" />
+              <div className="des">
+                <span> adidas</span>
+                <h4>cartoon astronaut t-shirts</h4>
+                <div className="rateYo"></div>
+                <h5>$78</h5>
+              </div>
+              <a href="/#" className="ico">
+                <i className="fa-solid fa-cart-shopping "></i>
+              </a>
             </div>
-            <a href="/#" className="ico">
-              <i className="fa-solid fa-cart-shopping "></i>
-            </a>
-          </div>
-          <div className="pro" onclick="window.location.href='sproduct.html'">
-            <img src={profife} alt="" />
-            <div className="des">
-              <span> adidas</span>
-              <h4>cartoon astronaut t-shirts</h4>
-              <div className="rateYo"></div>
-              <h5>$78</h5>
+            <div className="pro" onclick="window.location.href='sproduct.html'">
+              <img src={profife} alt="" />
+              <div className="des">
+                <span> adidas</span>
+                <h4>cartoon astronaut t-shirts</h4>
+                <div className="rateYo"></div>
+                <h5>$78</h5>
+              </div>
+              <a href="/#" className="ico">
+                <i className="fa-solid fa-cart-shopping "></i>
+              </a>
             </div>
-            <a href="/#" className="ico">
-              <i className="fa-solid fa-cart-shopping "></i>
-            </a>
-          </div>
-          <div className="pro" onclick="window.location.href='sproduct.html'">
-            <img src={prosix} alt="" />
-            <div className="des">
-              <span> adidas</span>
-              <h4>cartoon astronaut t-shirts</h4>
-              <div className="rateYo"></div>
-              <h5>$78</h5>
+            <div className="pro" onclick="window.location.href='sproduct.html'">
+              <img src={prosix} alt="" />
+              <div className="des">
+                <span> adidas</span>
+                <h4>cartoon astronaut t-shirts</h4>
+                <div className="rateYo"></div>
+                <h5>$78</h5>
+              </div>
+              <a href="/#" className="ico">
+                <i className="fa-solid fa-cart-shopping "></i>
+              </a>
             </div>
-            <a href="/#" className="ico">
-              <i className="fa-solid fa-cart-shopping "></i>
-            </a>
-          </div>
-          <div className="pro" onclick="window.location.href='sproduct.html'">
-            <img src={prosiven} alt="" />
-            <div className="des">
-              <span> adidas</span>
-              <h4>cartoon astronaut t-shirts</h4>
-              <div className="rateYo"></div>
-              <h5>$78</h5>
+            <div className="pro" onclick="window.location.href='sproduct.html'">
+              <img src={prosiven} alt="" />
+              <div className="des">
+                <span> adidas</span>
+                <h4>cartoon astronaut t-shirts</h4>
+                <div className="rateYo"></div>
+                <h5>$78</h5>
+              </div>
+              <a href="/#" className="ico">
+                <i className="fa-solid fa-cart-shopping "></i>
+              </a>
             </div>
-            <a href="/#" className="ico">
-              <i className="fa-solid fa-cart-shopping "></i>
-            </a>
-          </div>
-          <div className="pro" onclick="window.location.href='sproduct.html'">
-            <img src={proeat} alt="" />
-            <div className="des">
-              <span> adidas</span>
-              <h4>cartoon astronaut t-shirts</h4>
-              <div className="rateYo"></div>
-              <h5>$78</h5>
+            <div className="pro" onclick="window.location.href='sproduct.html'">
+              <img src={proeat} alt="" />
+              <div className="des">
+                <span> adidas</span>
+                <h4>cartoon astronaut t-shirts</h4>
+                <div className="rateYo"></div>
+                <h5>$78</h5>
+              </div>
+              <a href="/#" className="ico">
+                <i className="fa-solid fa-cart-shopping "></i>
+              </a>
             </div>
-            <a href="/#" className="ico">
-              <i className="fa-solid fa-cart-shopping "></i>
-            </a>
           </div>
-        </div>
-      </section>
+        </section>
+      </Link>
       <section id="products1" className="section-p1">
         <h2>new arrivals</h2>
         <p>summer collection new morden design</p>

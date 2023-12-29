@@ -1,5 +1,6 @@
 import "./App.css";
 import './js/main'
+
 import About from "./components/About";
 import Blog from "./components/Blog";
 import Cart from "./components/Cart";
@@ -9,6 +10,7 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Shop from "./components/Shop";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Productdetils from "./components/Productdetils";
 
 function App() {
   return (
@@ -21,6 +23,7 @@ function App() {
         <Route path="/About" element={<About />}></Route>
         <Route path="/Contact" element={<Contact />}></Route>
         <Route path="/cart" element={<Cart />}></Route>
+        <Route path="/product-detlis/:productId" element={<Productdetils/>}></Route>
       </Routes>
       <Footer />
     </BrowserRouter>

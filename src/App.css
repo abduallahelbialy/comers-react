@@ -5,7 +5,10 @@
   font-family: "League Spartan", sans-serif;
   text-transform: capitalize;
 }
-
+a{
+  text-decoration: none !important;
+  color: black !important;
+}
 h1 {
   font-size: 50px;
   line-height: 64px;
@@ -119,7 +122,7 @@ body {
 /* start hero */
 
 #hero {
-  background-image: url(../src/img/hero4.png);
+  background-image: url(../src/img/blog/20635027_349094145525796_6929520456072429568_n.jpg);
   background-size: cover;
   height: 90vh;
   width: 100%;

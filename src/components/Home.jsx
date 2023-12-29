@@ -21,6 +21,7 @@ import newprfife from '../img/products/n5.jpg'
 import newprsix from '../img/products/n6.jpg'
 import newprssiven from '../img/products/n7.jpg'
 import newpreat from '../img/products/n8.jpg'
+import { Link } from 'react-router-dom'
 const Home = () => {
   return (
     <React.Fragment>
@@ -58,11 +59,13 @@ const Home = () => {
         </div>
       </section>
 
+      <Link to="product-detlis/1">
+      
       <section id="products1" className="section-p1">
         <h2>featured products</h2>
         <p>summer collection new morden design</p>
         <div className="container">
-          <div className="pro" >
+          <div className="pro">
             <img src={proone} alt="" />
             <div className="des">
               <span> adidas</span>
@@ -98,7 +101,6 @@ const Home = () => {
               <i className="fa-solid fa-cart-shopping "></i>
             </a>
           </div>
-
           <div className="pro">
             <img src={profor} alt="" />
             <div className="des">
@@ -161,6 +163,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+      </Link>
       <section id="banner" className="section-m1">
         <h4>repair services</h4>
         <h2>
